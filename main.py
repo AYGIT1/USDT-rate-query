@@ -18,7 +18,7 @@ def crypQuery():
             print(data_Markets["Last"])
             resultCheck = True
             break
-    if resultCheck == False:
+    if resultCheck :
         print("Currency code does not exist.")
 
     # print(type(data_Raw.json()["result"].index(data_Markets)))
