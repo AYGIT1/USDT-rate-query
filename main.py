@@ -38,5 +38,6 @@ def newQuery():
         else:
             print("Faulty input.")
 
-crypQuery()
-newQuery()
+if __name__ == '__main__':
+    crypQuery()
+    newQuery()
